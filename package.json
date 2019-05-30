@@ -1,0 +1,32 @@
+{
+  "name": "node_film",
+  "version": "1.0.0",
+  "description": "film anime",
+  "main": "index.js",
+  "scripts": {
+    "anime_films": "nodemon run index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinvvan/node_film.git"
+  },
+  "author": "dinvvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinvvan/node_film/issues"
+  },
+  "homepage": "https://github.com/dinvvan/node_film#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^2.0.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "mongoose": "^5.5.11",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "session": "^0.1.0"
+  }
+}
