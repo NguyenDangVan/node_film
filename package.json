@@ -2,9 +2,9 @@
   "name": "node_film",
   "version": "1.0.0",
   "description": "film anime",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "anime_films": "nodemon run index.js",
+    "anime_films": "nodemon run app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +22,7 @@
     "body-parser": "^1.19.0",
     "connect-mongo": "^2.0.3",
     "dotenv": "^8.0.0",
+    "ejs": "^2.6.1",
     "express": "^4.17.1",
     "express-session": "^1.16.1",
     "express-validator": "^5.3.1",

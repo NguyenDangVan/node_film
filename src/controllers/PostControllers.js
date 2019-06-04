@@ -1,7 +1,5 @@
 //  src/controllers/PostControllers.js
 
-
-
 const Post = require('../models/PostModels')
 
 exports.listPost = function (req, res) {
