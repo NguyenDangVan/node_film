@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/dinvvan/node_film#readme",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "connect-mongo": "^2.0.3",
     "dotenv": "^8.0.0",
